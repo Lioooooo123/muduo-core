@@ -1,0 +1,54 @@
+# Build directories
+build/
+bin/
+lib/
+
+# CMake cache
+.cache/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+compile_commands.json
+
+# IDE-specific CMake builds
+cmake-build-*/
+
+# Compiled object files
+*.o
+*.obj
+*.so
+*.a
+*.dylib
+*.dll
+
+# Executables
+*.out
+*.exe
+testserver
+
+# Profiling/analysis
+gmon.out
+perf.data*
+*.prof
+*.core
+core
+vgcore.*
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# OS files
+.DS_Store
+Thumbs.db
