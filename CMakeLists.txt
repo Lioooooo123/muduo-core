@@ -1,5 +1,5 @@
 #设置最低版本和项目名称
-cmake_minimum_required(VERSION 3.15)
+cmake_minimum_required(VERSION 3.22)
 project(muduo-core) #锁定项目的工作目录
 
 #设置全局的c++标准
